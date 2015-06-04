@@ -193,7 +193,7 @@ Tiddler
 p70
 (dp71
 g21
-VNNNNNOOOOOOOOYYYYYYYYWWWWWWWW!!!!!!!!!\u000a\u000aYou are the prettiest girl.\u000a\u000aThe end.\u000a\u000a[[Restart This Story|Start]]\u000a\u000a<<fadeoutsound $birds >>\u000a<<fadeinsound $machine >>
+VNNNNNOOOOOOOOYYYYYYYYWWWWWWWW!!!!!!!!!\u000a\u000aYou are the prettiest <<if $char eq "frog">>frog<<else>>dude<<endif>> in town.\u000a\u000aThe end.\u000a\u000a[[Restart This Story|Start]]\u000a\u000a<<fadeoutsound $birds >>\u000a<<fadeinsound $machine >>\u000a\u000a[[Credits]]
 p72
 sg23
 VMrs. Roberts
@@ -202,12 +202,12 @@ sg25
 g26
 ((I2015
 I6
+I4
+I21
+I39
+I30
 I3
-I19
-I52
-I54
-I2
-I154
+I155
 I1
 tp74
 (dp75
@@ -295,7 +295,7 @@ Tiddler
 p101
 (dp102
 g21
-VA game by Dominik Johann (@zerstoerer) and William Pugh (@HonestWilliam), created for The Magpie Collection.
+VA game by Dominik Johann (@zerstoerer) and William Pugh (@HonestWilliam), created for [[The Magpie Collection|https://www.indiegogo.com/projects/the-magpie-collection]].
 p103
 sg23
 VCredits
@@ -304,12 +304,12 @@ sg25
 g26
 ((I2015
 I6
-I3
-I16
-I10
 I4
-I2
-I154
+I21
+I38
+I56
+I3
+I155
 I1
 tp105
 (dp106
@@ -395,7 +395,7 @@ Tiddler
 p131
 (dp132
 g21
-VYou wake up on a grassy field. The sun is blinding you. You can't remember anything that happened. Why are you here? You can hear the birds singing around you.\u000a\u000aYou san see a silhouette moving behind a little bush. Is that\u2026\u000a\u000a[[A light switch]]\u000a[[Mrs. Roberts]] \u000a\u000a<<fadeinsound $birds >>
+VYou wake up on a grassy field. The sun is blinding you. You can't remember anything that happened. Why are you here? You can hear the birds singing around you.\u000a\u000aYou san see a silhouette moving behind a little bush. Is that\u2026\u000a\u000a[[A light switch]]\u000a[[Mrs. Roberts]] \u000a\u000a<<fadeinsound $birds >>\u000a\u000a<<set $char = "frog">>
 p133
 sg23
 VIntro
@@ -404,12 +404,12 @@ sg25
 g26
 ((I2015
 I6
-I3
+I4
+I21
+I33
 I19
-I45
-I34
-I2
-I154
+I3
+I155
 I1
 tp135
 (dp136
@@ -495,7 +495,7 @@ Tiddler
 p161
 (dp162
 g21
-VTHE ADVENTURE OF BROTHE AND THE CONICAL FLASK
+VThe Jungle of Doubt and The Temple of No
 p163
 sg23
 VStoryTitle
@@ -504,12 +504,12 @@ sg25
 g26
 ((I2015
 I6
+I4
+I21
+I37
+I39
 I3
-I16
-I14
-I18
-I2
-I154
+I155
 I1
 tp165
 (dp166
